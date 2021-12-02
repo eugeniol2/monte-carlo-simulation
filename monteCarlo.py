@@ -30,8 +30,7 @@ while count < 1000000:
         count+= 1
 
 area_box = Yarea_value * Xarea_value
-print(in_area)
-print(count)
+
 print('Probabilidade do ponto cair no rio: {}%'.format((in_area/count)*100))
 print('area do cubo:{}' .format(area_box))
 
